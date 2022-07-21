@@ -1,0 +1,190 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>MYBLOG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="height=device-height, initial-scale=1">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="blogstyle.css">
+    <style>
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(blog.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-size: 100%;
+        }
+
+        .row {
+            display: flex;
+            height: 90%;
+            align-items: center;
+            padding-left: 70px;
+        }
+
+        .cols {
+            flex-basis: 50%;
+            padding-right: 20px;
+            padding-top: 70px;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #fff;
+            font-size: 15px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+
+        }
+
+        h3 {
+            color: white;
+            text-shadow: 0 0 5px #999;
+        }
+
+        .card {
+            padding-top: 50px;
+            width: 200px;
+            height: 230px;
+            display: inline-block;
+            border-radius: 12px;
+            padding: 15px 25px;
+            box-sizing: border-box;
+            cursor: pointer;
+            margin: 10px 15px;
+            transition: transform 0.5s;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .card:hover {
+            transform: translateX(-10px);
+
+        }
+
+        .card p {
+            color: white;
+            text-shadow: 0 0 15px #999;
+            font-size: 15px;
+        }
+
+        .card1 .card1-button {
+            position: fixed;
+            background-color: black;
+            color: #fff;
+            border-radius: 5px;
+            border-radius: 1px solid #000;
+            cursor: pointer;
+            transition: all 0.5s ease;
+        }
+
+
+        .card2 .card2-button {
+            position: fixed;
+            background-color: black;
+            color: #fff;
+            border-radius: 5px;
+            border-radius: 1px solid #000;
+            cursor: pointer;
+            transition: all 0.5s ease;
+        }
+
+        .card3 .card3-button {
+            position: fixed;
+            background-color: black;
+            color: #fff;
+            border-radius: 5px;
+            border-radius: 1px solid #000;
+            cursor: pointer;
+            transition: all 0.5s ease;
+        }
+
+        .card4 .card4-button {
+            position: fixed;
+            background-color: black;
+            color: #fff;
+            border-radius: 5px;
+            border-radius: 1px solid #000;
+            cursor: pointer;
+            transition: all 0.5s ease;
+        }
+
+        .buttons {
+            margin-top: 10px;
+            float: right;
+        }
+
+        .buttons button {
+            padding: 9px 14px;
+            border-radius: 22px;
+            color: black;
+            background-color: white;
+            font-size: 15px;
+            margin: 1px 3px;
+            cursor: pointer;
+        }
+
+        .buttons button:hover {
+            background-color: black;
+            color: white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="cols">
+            <h1>BLOG???</h1>
+            <p style="line-height: 22px;">Some people refer to a blog as an online journal, and others refer to it as an
+                informational website where they can access all the needed information. A blog is a simple way of
+                engaging online users and a place where people share their thoughts and opinions. Nowadays, a blog is a
+                regularly updated website or web page, and can either be used for personal use or to fulfill a business
+                need.
+            </p>
+        </div>
+
+        <div class="cols">
+            <div class="card card1">
+                <h3><b>Internship: Stepping stone to career</b></h3>
+                <p>In today's competitive world, the most significant issue freshers face when searching for....</p>
+                <button class="card1-button" onclick="location='card-1.html'">Read More</button>
+            </div>
+            <div class=" card card2">
+                <h3><b>Explore. Discover. Repeat</h3></b>
+                <p>One of the significant benefits of traveling is finding and keeping inner balance. Too often,
+                    people...
+                </p>
+                <button class="card2-button" onclick="location='card-2.html'">Read More</button>
+            </div>
+            <div class="card card3">
+                <h3><b>POSITIVE THINKING</b></h3>
+                <p>Positive Thinking is an attitude which helps us to highlight a brighter side of a person.</p>
+                <button class="card3-button" onclick="location='card-3.html'">Read More</button>
+            </div>
+            <div class="card card4">
+                <h3><b>-</b></h3>
+                <p>Nowadays, a blog Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
+                <button class="card4-button" onclick="location='card-4.html'">Read More</button>
+            </div>
+        </div>
+    </div>
+    <a class="buttons" href="index.html">
+        <button class="buttons"> Home </button>
+    </a>
+</body>
+
+</html>
